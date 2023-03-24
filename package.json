@@ -1,0 +1,22 @@
+{
+  "name": "pb-dark",
+  "version": "0.1.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "publisher": "peachbyte",
+  "categories": [
+    "Themes"
+  ],
+  "displayName": "PeachByte Dark",
+  "description": "Dark UI theme for VSCode",
+  "contributes": {
+    "themes": [
+      {
+        "path": "./themes/peach-byte-dark-color-theme.json",
+        "label": "PeachByte Dark",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  }
+}
